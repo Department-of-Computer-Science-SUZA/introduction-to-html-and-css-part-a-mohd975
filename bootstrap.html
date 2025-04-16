@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Part 6 -->
+    <h2 align="center">Here are grid system, navbar, buttons, and responsive cards </h2>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Java</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Web</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Android</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4">
+
+            <div class="row">
+                <div class="col-6">Java</div>
+                <div class="col-6">Web</div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-6">Android</div>
+                <div class="col-6">Database</div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="card">
+            <div class="card-header">This is the header of the card</div>
+            <div class="card-body">Add all content of Card here</div>
+            <div class="card-footer">This is the Footer of the Card</div>
+        </div>
+
+        <hr>
+        <h2>This is all type of button in the bootstrap</h2>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

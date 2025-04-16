@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/home/binnassor/LAB1/external.css">
+</head>
+
+<body >
+    
+    <fieldset class="fi">
+        <h2>Please fill the White Space!!!!</h2>
+    <form width="300px" height="300px" autocapitalize="off" autocomplete="off" spellcheck="false">
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" required>
+
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="email" required>
+
+        <label for="password">Password</label>
+        <input type="text" placeholder="password" required>
+        <hr class="hr">
+        <label for="profile">Upload Profile Picture:</label>
+        <input type="file" id="profile" name="profile" accept="image/*"><br><br>
+        <hr class="hr">
+        <h2>Please choose your Gender</h2>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="male">male</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="female">female</label><br>
+        <hr class="hr">
+        <h2>Favorite Course</h2>
+        <form>
+            <input type="checkbox" id="web" name="web" value="subject">
+            <label for="vehicle1"> web</label><br>
+            <input type="checkbox" id="mobile" name="mobile" value="mobile">
+            <label for="vehicle2"> mobile</label><br>
+            <input type="checkbox" id="java" name="java" value="java">
+            <label for="vehicle3"> java</label>
+        </form>
+        <hr class="hr">
+        <h2>List of Options</h2>
+        <label for="dropdown">Choose your option:</label>
+        <select id="dropdown" name="options">
+            <option value="option1">Tanzania</option>
+            <option value="option2">Kenya</option>
+            <option value="option3">Uganda</option>
+        </select>
+        <hr class="hr">
+        <button type="button" style="color: white; background-color:blue;">Submit</button>
+    </form>
+</fieldset>
+
+</body>
+
+</html>
